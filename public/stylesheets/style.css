@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  font-family: 'montserrat';
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: rebeccapurple;
+
+}
+
+.imagecontainer {
+  /* width: 50%; */
+  /* width: 50%; */
+  height: 100vh;
+  background-color: yellow;
+  margin: 0;
+
+}
+
+.imagecontainer>img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.textholder {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 390px;
+}
+
+.no-gutter.row,
+.no-gutter.container,
+.no-gutter.container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-gutter>[class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mainbox {
+  width: 400px;
+  height: 60%;
+  /* background-color: yellow; */
+  padding: 0px 20px;
+}
+
+.heading {
+  /* background-color: red; */
+  width: 100%;
+}
+
+.heading p {
+  font-size: 28px;
+  font-weight: 400;
+  color: #007bff;
+}
+
+.lgtext {
+  font-size: 12px;
+  color: #6e6b6b;
+  font-weight: 500;
+}
+
+.smbox {
+  width: 100%;
+  height: 290px;
+  /* background-color: red; */
+
+}
+
+.smbox>.btn-primary {
+  margin-top: 10px;
+}
+
+.signup {
+  margin-top: 10px;
+}
+
+.signup a {
+  text-decoration: none;
+}
